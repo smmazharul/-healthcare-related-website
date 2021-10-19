@@ -1,9 +1,10 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import useAuth from '../Hooks/useAuth';
+
 import Zoom from 'react-reveal/Zoom';
 
 import Slide from 'react-reveal/Zoom';
+import useAuth from '../Hooks/useAuth';
 const Cart = () => {
     const {selectedService}=useAuth()
     return (
@@ -12,7 +13,7 @@ const Cart = () => {
                         {selectedService.map(({img,title,description,time,price,subtitle})=>(
 
 
-            <Row className='my-5'  xs={1} md={2} >
+            <Row className='my-3'  xs={1} md={2} >
                 <Col className="my-auto about-content" >
                 <Slide left>
                 <h2 >{title}</h2>

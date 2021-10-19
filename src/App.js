@@ -16,6 +16,7 @@ import AuthProvider from './Contexts/AuthProvider';
 import Footer from './components/Footer/Footer';
 import Details from './components/Details/Details/Details';
 import PrivateRoute from './Route/PrivateRoute';
+import Thanks from './Pages/Thanks';
 
 
 
@@ -52,6 +53,9 @@ function App() {
                   </Route>
                   <Route path='/signup'>
                     <Signup></Signup>
+                  </Route>
+                  <Route path='/tanks'>
+                    <Thanks></Thanks>
                   </Route>
                   <Route path='*'>
                     <NotFound></NotFound>

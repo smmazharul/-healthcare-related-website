@@ -1,0 +1,13 @@
+.notfound h1{
+    font-size: 100px;
+    font-weight: 900;
+}
+.not-btn button{
+    background: red;
+    color: #fff;
+    margin-top: 50px;
+    width: 250px;
+}
+.not-btn{
+    margin-left: 50%;
+}
