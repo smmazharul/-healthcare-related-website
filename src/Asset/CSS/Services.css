@@ -1,0 +1,24 @@
+
+.service-cart-content{
+ text-align: justify;
+}
+.time-visit{
+    display: flex;
+    justify-content: space-between;
+    color: orange;
+}
+.service-card{
+    box-shadow: 3px 5px 5px gray;
+}
+.service-btn{
+    display: flex;
+    justify-content: space-between;
+}
+.button1{
+    background: orange;
+    color: #fff;
+}
+.button2{
+    background: rgb(3, 101, 123);
+    color: #fff;
+}

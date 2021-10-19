@@ -1,0 +1,26 @@
+.about-content p{
+    color: black;
+
+}
+.details{
+    margin-top: 5%;
+}
+.pay-time{
+    display: flex;
+    justify-content: space-between;
+}
+.pay-time h3{
+    color: orange;
+
+}
+img{
+    border-radius: 10px;
+}
+.booking-btn{
+    background: rgb(24, 232, 221);
+}
+.notselected {
+   width: 350px;
+   margin: 0 auto;
+
+}

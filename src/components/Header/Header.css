@@ -1,0 +1,37 @@
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: rgb(7, 232, 248);
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.55);
+    border-color: rgb(249 249 249 / 99%);
+}
+.navbar-toggler-icon{
+    background: rgba(255, 255, 255, 0.754);
+}
+.navbar{
+    background: rgb(64, 45, 84);
+    color: #fff;
+
+}
+.log-btn{
+    background: rgb(7, 232, 248);
+    color: #fff;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 75px;
+    border: none;
+
+
+}
+
+.user-name img{
+ width: 35px;
+ margin-left: 10px;
+ border-radius: 50%;
+ box-shadow: 0px 1px 3px 3px rgb(121 235 250);
+
+}

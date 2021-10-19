@@ -1,0 +1,25 @@
+
+.about-card{
+
+}
+.card img{
+    height: 250px;
+    width: 100%;
+}
+.about-content{
+    text-align: justify;
+}
+.about-top-banner{
+    background: rgb(32, 165, 159);
+    padding: 5px;
+    
+}
+.about-top-banner img{
+    border-radius:20px ;
+}
+.about-content h2 {
+    color: orange;
+}
+.about-content p{
+    color: #fff;
+}
